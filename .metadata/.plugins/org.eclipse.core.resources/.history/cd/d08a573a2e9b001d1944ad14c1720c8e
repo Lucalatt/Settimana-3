@@ -1,0 +1,21 @@
+package Esercizio1;
+
+import java.time.LocalDate;
+
+public class Clienti {
+	
+	String nome;
+	String cognome;
+	LocalDate data_nascita;
+	String regione_residenza;
+	
+	public Clienti(String nome, String cognome, LocalDate data_nascita, String regione_residenza) {
+		super();
+		this.nome = nome;
+		this.cognome = cognome;
+		this.data_nascita = data_nascita;
+		this.regione_residenza = regione_residenza;
+	}
+	
+	
+}

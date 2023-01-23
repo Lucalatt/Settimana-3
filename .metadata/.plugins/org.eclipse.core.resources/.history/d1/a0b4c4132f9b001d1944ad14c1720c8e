@@ -1,0 +1,16 @@
+package Esercizio1;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		DB db = new DB();
+		db.connect();
+		
+		boolean inserisciCliente = true;
+		if( inserisciCliente ) {
+			db.inserisciCliente("Giacomo Verdi", 1);
+		}
+	}
+
+}
