@@ -1,5 +1,0 @@
-INDEX VERSION 1.131+C:\Users\lucal\Documents\GitHub\Back End\Settimana 3\.metadata\.plugins\org.eclipse.jdt.core
-791279882.index
-1874256178.index
-4086281681.index
-1865797976.index
