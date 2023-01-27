@@ -16,11 +16,11 @@ public class App {
 	
 	public static Libro saveLibro() {
 		Libro l = new Libro();
-		l.setTitolo("Pinocchio");
-		l.setAutore("Collodi");
-		l.setNPagine(250);
-		l.setGenere("Fantasy");
-		l.setAnnoPubblicazione(1850);
+		l.setTitolo("Zanna Arancione");
+		l.setAutore("Mario Mario");
+		l.setNPagine(30);
+		l.setGenere("Giallo");
+		l.setAnnoPubblicazione(1999);
 		
 		ElementoDAO elementoDAO = new ElementoDAO();
 	        elementoDAO.save(l);
@@ -29,10 +29,10 @@ public class App {
 	}
 	public static Rivista saveRivista() {
 		Rivista r = new Rivista();
-		r.setTitolo("New Magazine");
-		r.setPeriodicita(Periodicita.SETTIMANALE);
-		r.setNPagine(20);
-		r.setAnnoPubblicazione(2022);
+		r.setTitolo("PcGamer");
+		r.setPeriodicita(Periodicita.MENSILE);
+		r.setNPagine(100);
+		r.setAnnoPubblicazione(2021);
 		
 		ElementoDAO elementoDAO = new ElementoDAO();
 		elementoDAO.save(r);
@@ -42,9 +42,9 @@ public class App {
 	}
 	public static Utente saveUtente() {
 		Utente u = new Utente();
-		u.setNome("Giuseppe");
-		u.setCognome("Morricone");
-		u.setDatanascita(LocalDate.parse("2005-01-28"));
+		u.setNome("Giovanni");
+		u.setCognome("Rossi");
+		u.setDatanascita(LocalDate.parse("2004-01-01"));
 		
 		UtenteDAO utenteDAO = new UtenteDAO();
 		utenteDAO.save(u);
@@ -76,12 +76,12 @@ public class App {
 	}
 	public static void searchISBN() {
 		ElementoDAO elementoDAO = new ElementoDAO();
-		elementoDAO.ricercaByISBN(450000000000300L);
+		elementoDAO.ricercaByISBN(00000000000000);
 		
 	}
 	public static void searchAutore() {
 		ElementoDAO elementoDAO = new ElementoDAO();
-		elementoDAO.ricercaByAutore("C. S. Lewis");
+		elementoDAO.ricercaByAutore("");
 		
 	}
 	public static void searchAnno() {
@@ -92,7 +92,7 @@ public class App {
 	
 	public static void searchTitoloParz() {
 		ElementoDAO elementoDAO = new ElementoDAO();
-		elementoDAO.ricercaParzialeTitolo("Le cronache");
+		elementoDAO.ricercaParzialeTitolo("");
 		
 	}
 	public static void searchTessera() {
@@ -110,9 +110,9 @@ public class App {
 
 	public static void main(String[] args) {
 
-		//Libro libro = saveLibro();
+		Libro libro = saveLibro();
 		
-		//Utente utente = saveUtente();
+		Utente utente = saveUtente();
 		
 		//Rivista rivista = saveRivista();
 		
@@ -123,7 +123,7 @@ public class App {
 		//searchTessera();
 		//searchScaduti();
 		
-		//Prestito prestito = savePrestito(utente, libro);
+		Prestito prestito = savePrestito(utente, libro);
 		
 		
 		
