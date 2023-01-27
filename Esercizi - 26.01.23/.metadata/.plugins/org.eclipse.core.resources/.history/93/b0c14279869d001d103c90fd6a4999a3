@@ -1,0 +1,41 @@
+package entities;
+
+import java.time.LocalDate;
+import java.util.Set;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.SequenceGenerator;
+import javax.persistence.Table;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+import lombok.ToString;
+
+@Entity
+@Table ( name = "partita")
+@Getter
+@Setter
+@ToString
+
+@NoArgsConstructor
+
+public class PartitaDiCalcio extends Evento {
+	
+	private String squadraCasa;
+	private String squadraOspite;
+	private String squadraVincente;
+	private int golCasa;
+	private int golOspite;
+	public PartitaDiCalcio(int id, String titolo, LocalDate dataEvento, String descrizione, TipoEvento tipoEvento,
+			int numeroMaxPartecipanti, Set<Partecipazione> setPartecipazione, Location location) {
+		super(id, titolo, dataEvento, descrizione, tipoEvento, numeroMaxPartecipanti, setPartecipazione, location);
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+	
+}

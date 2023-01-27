@@ -1,0 +1,23 @@
+package entities;
+
+import java.util.Set;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
+
+@Entity
+@Table(name = "gara_atletica")
+@Getter
+@Setter
+@ToString
+
+public class GaraDiAtletica extends Evento {
+	
+	private Set<Persona> setAtleti;
+	private Persona vincitore;
+
+}

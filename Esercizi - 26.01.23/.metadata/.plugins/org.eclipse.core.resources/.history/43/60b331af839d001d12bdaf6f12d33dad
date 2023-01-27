@@ -1,0 +1,23 @@
+package entities;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Table;
+
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
+
+@Entity
+@Table ( name = "partita")
+@Getter
+@Setter
+@ToString
+
+
+public class PartitaDiCalcio extends Evento {
+	
+	@Id
+	@GeneratedValue( strategy = GenerationType.IDENTITY);
+
+}

@@ -1,0 +1,26 @@
+package entities;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.SequenceGenerator;
+import javax.persistence.Table;
+
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
+
+@Entity
+@Table ( name = "partita")
+@Getter
+@Setter
+@ToString
+
+
+public class PartitaDiCalcio extends Evento {
+	
+	@Id
+	@SequenceGenerator(name = "partita", sequenceName = "evento_seq", allocationSize = 1)
+	@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "evento_seq")
+
+}

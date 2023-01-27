@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
+    <fullyQualifiedTypeName name="javax.persistence.Entity"/>
+    <fullyQualifiedTypeName name="javax.persistence.Table"/>
+    <fullyQualifiedTypeName name="lombok.Getter"/>
+    <fullyQualifiedTypeName name="lombok.Setter"/>
+    <fullyQualifiedTypeName name="lombok.ToString"/>
+    <fullyQualifiedTypeName name="java.util.Set"/>
+    <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
+    <fullyQualifiedTypeName name="lombok.NoArgsConstructor"/>
+    <fullyQualifiedTypeName name="entities.PartitaDiCalcio"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="entities.Genere"/>
+    <fullyQualifiedTypeName name="javax.persistence.Inheritance"/>
+    <fullyQualifiedTypeName name="javax.persistence.InheritanceType"/>
+    <fullyQualifiedTypeName name="javax.persistence.DiscriminatorType"/>
+    <fullyQualifiedTypeName name="javax.persistence.DiscriminatorColumn"/>
+    <fullyQualifiedTypeName name="javax.persistence.DiscriminatorValue"/>
+    <fullyQualifiedTypeName name="entities.Concerto"/>
+    <fullyQualifiedTypeName name="javax.persistence.Column"/>
+</qualifiedTypeNameHistroy>

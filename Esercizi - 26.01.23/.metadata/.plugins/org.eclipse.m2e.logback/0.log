@@ -1,0 +1,228 @@
+2023-01-26 14:41:56,731 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-01-26 14:43:03,075 [Worker-17: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-01-26 14:43:04,453 [Worker-17: Update Maven projects configuration] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Esercizio1_G3_S3:Esercizio1_G3_S3:0.0.1-SNAPSHOT @ C:\Users\lucal\Downloads\III-Test3-BE-main\Esercizio1_G3_S3\pom.xml.
+2023-01-26 14:43:06,427 [Worker-17: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Esercizio1_G3_S3/src/main/java
+2023-01-26 14:43:06,428 [Worker-17: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /Esercizio1_G3_S3/src/main/java overlaps with sources folder /Esercizio1_G3_S3/src/main/java
+2023-01-26 14:43:06,432 [Worker-17: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Esercizio1_G3_S3/src/test/java
+2023-01-26 14:43:06,970 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 14:43:06,980 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-01-26 14:43:06,993 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 14:43:07,002 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lucal\Downloads\III-Test3-BE-main\Esercizio1_G3_S3\src\test\resources
+2023-01-26 14:43:09,602 [Worker-17: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0,00 sec, refresh facades takes 1,00 sec, update config takes 4,00 sec 
+2023-01-26 14:43:12,349 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 14:43:12,360 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-01-26 14:43:12,371 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 14:43:12,373 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lucal\Downloads\III-Test3-BE-main\Esercizio1_G3_S3\src\test\resources
+2023-01-26 14:44:43,920 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 14:44:43,925 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-01-26 14:44:43,930 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 14:44:43,931 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lucal\Downloads\III-Test3-BE-main\Esercizio1_G3_S3\src\test\resources
+2023-01-26 14:46:02,049 [Worker-2: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 14:46:02,050 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-01-26 14:46:02,055 [Worker-2: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 14:46:02,056 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lucal\Downloads\III-Test3-BE-main\Esercizio1_G3_S3\src\test\resources
+2023-01-26 15:08:16,373 [Worker-25: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 15:08:16,379 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-01-26 15:08:16,381 [Worker-25: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 15:08:16,383 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lucal\Downloads\III-Test3-BE-main\Esercizio1_G3_S3\src\test\resources
+2023-01-26 15:08:40,823 [Worker-25: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 15:08:40,830 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-01-26 15:08:40,834 [Worker-25: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 15:08:40,835 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lucal\Downloads\III-Test3-BE-main\Esercizio1_G3_S3\src\test\resources
+2023-01-26 15:09:06,203 [Worker-27: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 15:09:06,210 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-01-26 15:09:06,213 [Worker-27: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 15:09:06,215 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lucal\Downloads\III-Test3-BE-main\Esercizio1_G3_S3\src\test\resources
+2023-01-26 15:09:17,134 [Worker-24: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 15:09:17,138 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-01-26 15:09:17,141 [Worker-24: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 15:09:17,142 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lucal\Downloads\III-Test3-BE-main\Esercizio1_G3_S3\src\test\resources
+2023-01-26 15:11:57,294 [Worker-25: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 15:11:57,299 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-01-26 15:11:57,300 [Worker-25: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 15:11:57,301 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lucal\Downloads\III-Test3-BE-main\Esercizio1_G3_S3\src\test\resources
+2023-01-26 15:14:02,538 [Worker-26: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 15:14:02,543 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-01-26 15:14:02,547 [Worker-26: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 15:14:02,548 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lucal\Downloads\III-Test3-BE-main\Esercizio1_G3_S3\src\test\resources
+2023-01-26 15:14:05,205 [Worker-26: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 15:14:05,209 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-01-26 15:14:05,212 [Worker-26: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 15:14:05,213 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lucal\Downloads\III-Test3-BE-main\Esercizio1_G3_S3\src\test\resources
+2023-01-26 15:14:19,523 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-01-26 15:19:09,712 [Worker-21: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 15:19:09,720 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-01-26 15:19:09,728 [Worker-21: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 15:19:09,733 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lucal\Downloads\III-Test3-BE-main\Esercizio1_G3_S3\src\test\resources
+2023-01-26 15:20:03,437 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 15:20:03,452 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-01-26 15:20:03,458 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 15:20:03,459 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lucal\Downloads\III-Test3-BE-main\Esercizio1_G3_S3\src\test\resources
+2023-01-26 15:23:50,025 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 15:23:50,031 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-01-26 15:23:50,034 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 15:23:50,035 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lucal\Downloads\III-Test3-BE-main\Esercizio1_G3_S3\src\test\resources
+2023-01-26 15:24:28,183 [Worker-21: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 15:24:28,189 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-01-26 15:24:28,193 [Worker-21: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 15:24:28,195 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lucal\Downloads\III-Test3-BE-main\Esercizio1_G3_S3\src\test\resources
+2023-01-26 15:24:47,686 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 15:24:47,692 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-01-26 15:24:47,696 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 15:24:47,697 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lucal\Downloads\III-Test3-BE-main\Esercizio1_G3_S3\src\test\resources
+2023-01-26 15:27:35,946 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 15:27:35,951 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-01-26 15:27:35,955 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 15:27:35,956 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lucal\Downloads\III-Test3-BE-main\Esercizio1_G3_S3\src\test\resources
+2023-01-26 15:29:11,487 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 15:29:11,492 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-01-26 15:29:11,494 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 15:29:11,496 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lucal\Downloads\III-Test3-BE-main\Esercizio1_G3_S3\src\test\resources
+2023-01-26 15:29:37,572 [Worker-26: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 15:29:37,577 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-01-26 15:29:37,584 [Worker-26: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 15:29:37,592 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lucal\Downloads\III-Test3-BE-main\Esercizio1_G3_S3\src\test\resources
+2023-01-26 15:29:47,027 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 15:29:47,031 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-01-26 15:29:47,034 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 15:29:47,035 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lucal\Downloads\III-Test3-BE-main\Esercizio1_G3_S3\src\test\resources
+2023-01-26 15:30:31,212 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 15:30:31,217 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-01-26 15:30:31,220 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 15:30:31,221 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lucal\Downloads\III-Test3-BE-main\Esercizio1_G3_S3\src\test\resources
+2023-01-26 15:31:11,412 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 15:31:11,417 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-01-26 15:31:11,419 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 15:31:11,420 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lucal\Downloads\III-Test3-BE-main\Esercizio1_G3_S3\src\test\resources
+2023-01-26 15:31:16,544 [Worker-26: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 15:31:16,549 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-01-26 15:31:16,552 [Worker-26: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 15:31:16,553 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lucal\Downloads\III-Test3-BE-main\Esercizio1_G3_S3\src\test\resources
+2023-01-26 15:32:06,564 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 15:32:06,569 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-01-26 15:32:06,571 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 15:32:06,573 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lucal\Downloads\III-Test3-BE-main\Esercizio1_G3_S3\src\test\resources
+2023-01-26 15:32:18,480 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 15:32:18,484 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-01-26 15:32:18,487 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 15:32:18,487 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lucal\Downloads\III-Test3-BE-main\Esercizio1_G3_S3\src\test\resources
+2023-01-26 15:32:27,959 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 15:32:27,964 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-01-26 15:32:27,966 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 15:32:27,967 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lucal\Downloads\III-Test3-BE-main\Esercizio1_G3_S3\src\test\resources
+2023-01-26 15:33:14,758 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 15:33:14,762 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-01-26 15:33:14,766 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 15:33:14,768 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lucal\Downloads\III-Test3-BE-main\Esercizio1_G3_S3\src\test\resources
+2023-01-26 15:33:32,270 [Worker-21: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 15:33:32,275 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-01-26 15:33:32,276 [Worker-21: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 15:33:32,277 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lucal\Downloads\III-Test3-BE-main\Esercizio1_G3_S3\src\test\resources
+2023-01-26 15:33:37,753 [Worker-25: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 15:33:37,759 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-01-26 15:33:37,761 [Worker-25: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 15:33:37,762 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lucal\Downloads\III-Test3-BE-main\Esercizio1_G3_S3\src\test\resources
+2023-01-26 15:34:00,538 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 15:34:00,543 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-01-26 15:34:00,545 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 15:34:00,546 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lucal\Downloads\III-Test3-BE-main\Esercizio1_G3_S3\src\test\resources
+2023-01-26 15:35:49,868 [Worker-21: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 15:35:49,872 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-01-26 15:35:49,873 [Worker-21: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 15:35:49,874 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lucal\Downloads\III-Test3-BE-main\Esercizio1_G3_S3\src\test\resources
+2023-01-26 15:36:58,978 [Worker-21: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 15:36:58,983 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-01-26 15:36:58,985 [Worker-21: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 15:36:58,987 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lucal\Downloads\III-Test3-BE-main\Esercizio1_G3_S3\src\test\resources
+2023-01-26 15:37:01,052 [Worker-21: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 15:37:01,056 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-01-26 15:37:01,058 [Worker-21: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 15:37:01,059 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lucal\Downloads\III-Test3-BE-main\Esercizio1_G3_S3\src\test\resources
+2023-01-26 15:37:03,113 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 15:37:03,118 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-01-26 15:37:03,121 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 15:37:03,122 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lucal\Downloads\III-Test3-BE-main\Esercizio1_G3_S3\src\test\resources
+2023-01-26 15:57:16,923 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 15:57:16,927 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-01-26 15:57:16,929 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 15:57:16,930 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lucal\Downloads\III-Test3-BE-main\Esercizio1_G3_S3\src\test\resources
+2023-01-26 16:03:05,175 [Worker-31: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 16:03:05,179 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-01-26 16:03:05,181 [Worker-31: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 16:03:05,182 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lucal\Downloads\III-Test3-BE-main\Esercizio1_G3_S3\src\test\resources
+2023-01-26 16:09:20,781 [Worker-36: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 16:09:20,787 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-01-26 16:09:20,790 [Worker-36: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 16:09:20,791 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lucal\Downloads\III-Test3-BE-main\Esercizio1_G3_S3\src\test\resources
+2023-01-26 16:10:57,315 [Worker-31: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 16:10:57,319 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-01-26 16:10:57,321 [Worker-31: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 16:10:57,322 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lucal\Downloads\III-Test3-BE-main\Esercizio1_G3_S3\src\test\resources
+2023-01-26 16:13:40,380 [Worker-34: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 16:13:40,385 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-01-26 16:13:40,387 [Worker-34: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 16:13:40,387 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lucal\Downloads\III-Test3-BE-main\Esercizio1_G3_S3\src\test\resources
+2023-01-26 16:17:16,550 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 16:17:16,555 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-01-26 16:17:16,557 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 16:17:16,558 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lucal\Downloads\III-Test3-BE-main\Esercizio1_G3_S3\src\test\resources
+2023-01-26 16:17:32,612 [Worker-34: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 16:17:32,616 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-01-26 16:17:32,618 [Worker-34: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 16:17:32,619 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lucal\Downloads\III-Test3-BE-main\Esercizio1_G3_S3\src\test\resources
+2023-01-26 16:19:14,980 [Worker-40: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 16:19:14,983 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-01-26 16:19:14,985 [Worker-40: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 16:19:14,987 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lucal\Downloads\III-Test3-BE-main\Esercizio1_G3_S3\src\test\resources
+2023-01-26 16:20:51,978 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 16:20:51,982 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-01-26 16:20:51,985 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 16:20:51,987 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lucal\Downloads\III-Test3-BE-main\Esercizio1_G3_S3\src\test\resources
+2023-01-26 16:22:46,458 [Worker-42: Launching App] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 16:22:46,463 [Worker-42: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-01-26 16:22:46,466 [Worker-42: Launching App] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 16:22:46,467 [Worker-42: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lucal\Downloads\III-Test3-BE-main\Esercizio1_G3_S3\src\test\resources
+2023-01-26 16:23:15,708 [Worker-43: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 16:23:15,711 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-01-26 16:23:15,714 [Worker-43: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 16:23:15,716 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lucal\Downloads\III-Test3-BE-main\Esercizio1_G3_S3\src\test\resources
+2023-01-26 16:23:47,776 [Worker-44: Launching App] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 16:23:47,780 [Worker-44: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-01-26 16:23:47,782 [Worker-44: Launching App] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 16:23:47,784 [Worker-44: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lucal\Downloads\III-Test3-BE-main\Esercizio1_G3_S3\src\test\resources
+2023-01-26 16:26:24,296 [Worker-45: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 16:26:24,300 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-01-26 16:26:24,302 [Worker-45: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 16:26:24,303 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lucal\Downloads\III-Test3-BE-main\Esercizio1_G3_S3\src\test\resources
+2023-01-26 16:33:31,168 [Worker-50: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 16:33:31,174 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-01-26 16:33:31,177 [Worker-50: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 16:33:31,178 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lucal\Downloads\III-Test3-BE-main\Esercizio1_G3_S3\src\test\resources
+2023-01-26 16:34:37,665 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 16:34:37,669 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-01-26 16:34:37,672 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 16:34:37,674 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lucal\Downloads\III-Test3-BE-main\Esercizio1_G3_S3\src\test\resources
+2023-01-26 16:35:05,075 [Worker-49: Launching App] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 16:35:05,080 [Worker-49: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-01-26 16:35:05,083 [Worker-49: Launching App] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 16:35:05,085 [Worker-49: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lucal\Downloads\III-Test3-BE-main\Esercizio1_G3_S3\src\test\resources
+2023-01-26 16:44:47,343 [Worker-54: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 16:44:47,348 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-01-26 16:44:47,350 [Worker-54: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 16:44:47,351 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lucal\Downloads\III-Test3-BE-main\Esercizio1_G3_S3\src\test\resources
+2023-01-26 17:03:04,419 [Worker-55: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 17:03:04,424 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-01-26 17:03:04,426 [Worker-55: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 17:03:04,427 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lucal\Downloads\III-Test3-BE-main\Esercizio1_G3_S3\src\test\resources
+2023-01-26 17:03:45,767 [Worker-54: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 17:03:45,772 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-01-26 17:03:45,774 [Worker-54: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 17:03:45,776 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lucal\Downloads\III-Test3-BE-main\Esercizio1_G3_S3\src\test\resources
+2023-01-26 17:04:24,365 [Worker-48: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 17:04:24,369 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-01-26 17:04:24,372 [Worker-48: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 17:04:24,373 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lucal\Downloads\III-Test3-BE-main\Esercizio1_G3_S3\src\test\resources
+2023-01-26 17:04:48,719 [Worker-48: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 17:04:48,724 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-01-26 17:04:48,727 [Worker-48: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-26 17:04:48,729 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lucal\Downloads\III-Test3-BE-main\Esercizio1_G3_S3\src\test\resources

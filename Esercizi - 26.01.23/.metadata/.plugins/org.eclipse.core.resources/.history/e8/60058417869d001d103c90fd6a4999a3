@@ -1,0 +1,31 @@
+package entities;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.SequenceGenerator;
+import javax.persistence.Table;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+import lombok.ToString;
+
+@Entity
+@Table ( name = "partita")
+@Getter
+@Setter
+@ToString
+@AllArgsConstructor
+@NoArgsConstructor
+
+public class PartitaDiCalcio extends Evento {
+	
+	private String squadraCasa;
+	private String squadraOspite;
+	private String squadraVincente;
+	private int golCasa;
+	private int golOspite;
+	
+}
