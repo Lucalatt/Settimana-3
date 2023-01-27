@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;logback.xml&apos; to &apos;Esame settimanale/src/main/java&apos;&#x0D;&#x0A;- Original project: &apos;Week3-Day2&apos;&#x0D;&#x0A;- Destination element: &apos;Esame settimanale/src/main/java&apos;&#x0D;&#x0A;- Original element: &apos;logback.xml&apos;" description="Copy file" destination="=Esame settimanale/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/" element1="src/main/java/logback.xml" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1674813030355" units="0" version="1.0"/>
+</session>

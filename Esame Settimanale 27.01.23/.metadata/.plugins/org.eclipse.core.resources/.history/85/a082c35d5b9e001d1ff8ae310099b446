@@ -1,0 +1,35 @@
+package ap.DAO;
+
+import java.util.List;
+
+import javax.persistence.Query;
+
+import entities.ElementoBiblioteca;
+import utils.JpaUtil;
+
+public class ElementoDAO extends JpaUtil {
+	public void save(ElementoBiblioteca el) {
+
+		try {
+
+			t.begin();
+			em.persist(el);
+			t.commit();
+
+			System.out.println("Elemento inserito correttamente!");
+		} catch (Exception e) {
+			System.out.println("Errore nell'inserimento dell'Elemento");
+		}
+
+	}
+
+	public void ricercaAnno(int anno) {
+		Query query = em.createNamedQuery("ricercaAnno");
+		query.setParameter("annoPubblicazione", anno);
+		List<ElementoBiblioteca> elemento = query.getResultList();
+		System.out.println("Carico elementi con anno: " + anno);
+		for (ElementoBiblioteca e : elemento) {
+			System.out.println(e);
+		}
+	}
+}

@@ -1,0 +1,32 @@
+package entities;
+
+import javax.persistence.DiscriminatorColumn;
+import javax.persistence.DiscriminatorValue;
+import javax.persistence.Entity;
+import javax.persistence.NamedQueries;
+import javax.persistence.NamedQuery;
+import javax.persistence.Table;
+
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
+
+@Entity
+@Table(name = "libri")
+@DiscriminatorValue("Libro")
+@Getter
+@Setter
+@NamedQuery(name = "ricercaAutore", query = "SELECT l FROM Libro WHERE l.autore = :autore")
+@ToString
+
+public class Libro extends ElementoBiblioteca {
+	
+	String autore;
+	String genere;
+	
+	@Override
+	public String toString() {
+		return "Codice ISBN: " + this.getCodIsbn() + " | Titolo: " + this.getTitolo() + " | Anno pubblicazione: " + this.getNPagine() + " | Autore: " + this.getAutore() + " | Genere: " + this.genere;
+	}
+	
+}

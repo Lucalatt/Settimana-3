@@ -1,0 +1,27 @@
+package app;
+
+import ap.DAO.ElementoDAO;
+import entities.Libro;
+
+public class App {
+
+	public static void main(String[] args) {
+		
+		
+		
+
+	}
+	
+	public static void saveLibro() {
+		Libro l = new Libro();
+		l.setTitolo("Il signore degli");
+		l.setAnnoPubblicazione(2000-12-01);
+		l.setAutore("Mario");
+		l.setNPagine(200);
+		l.setGenere("Fantasy");
+
+		ElementoDAO libro = new ElementoDAO();
+		libro.save(l);
+	}
+
+}

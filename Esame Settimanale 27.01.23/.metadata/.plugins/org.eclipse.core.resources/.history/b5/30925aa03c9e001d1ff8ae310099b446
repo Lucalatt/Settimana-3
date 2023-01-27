@@ -1,0 +1,58 @@
+package app;
+
+
+import java.time.LocalDate;
+
+import ap.DAO.ElementoDAO;
+import ap.DAO.UtenteDAO;
+import entities.Libro;
+import entities.Utente;
+
+public class App {
+
+	public static void main(String[] args) {
+		
+		//saveLibro();
+		saveUtente();
+		
+
+	}
+	
+	public static void saveLibro() {
+		Libro l = new Libro();
+		l.setTitolo("Il signore degli");
+		l.setAnnoPubblicazione(2000-12-01);
+		l.setAutore("Mario");
+		l.setNPagine(200);
+		l.setGenere("Fantasy");
+
+		ElementoDAO libro = new ElementoDAO();
+		libro.save(l);
+	}
+	
+	public static void saveRivista() {
+		Libro l = new Libro();
+		l.setTitolo("Il signore degli");
+		l.setAnnoPubblicazione(2000-12-01);
+		l.setAutore("Mario");
+		l.setNPagine(200);
+		l.setGenere("Fantasy");
+
+		ElementoDAO libro = new ElementoDAO();
+		libro.save(l);
+	}
+	
+	public static void saveUtente() {
+		Utente u = new Utente();
+		u.setNumerotessera(123);
+		u.setNome("Mario");
+		u.setCognome("Rossi");
+		u.setDatanascita(LocalDate.parse("2000-12-12"));
+		
+		UtenteDAO utente = new UtenteDAO();
+		utente.save(u);
+	}
+	
+	
+
+}

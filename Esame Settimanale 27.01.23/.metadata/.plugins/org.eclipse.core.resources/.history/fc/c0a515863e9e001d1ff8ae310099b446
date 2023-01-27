@@ -1,0 +1,73 @@
+package app;
+
+
+import java.time.LocalDate;
+
+import ap.DAO.ElementoDAO;
+import ap.DAO.PrestitoDAO;
+import ap.DAO.UtenteDAO;
+import entities.ElementoBiblioteca;
+import entities.Libro;
+import entities.Prestito;
+import entities.Utente;
+
+public class App {
+
+	public static void main(String[] args) {
+		
+		//saveLibro();
+		saveUtente();
+		
+
+	}
+	
+	public static void saveLibro() {
+		Libro l = new Libro();
+		l.setTitolo("Il signore degli");
+		l.setAnnoPubblicazione(2000-12-01);
+		l.setAutore("Mario");
+		l.setNPagine(200);
+		l.setGenere("Fantasy");
+
+		ElementoDAO libro = new ElementoDAO();
+		libro.save(l);
+	}
+	
+	public static void saveRivista() {
+		Libro l = new Libro();
+		l.setTitolo("Il signore degli");
+		l.setAnnoPubblicazione(2000-12-01);
+		l.setAutore("Mario");
+		l.setNPagine(200);
+		l.setGenere("Fantasy");
+
+		ElementoDAO libro = new ElementoDAO();
+		libro.save(l);
+	}
+	
+	public static void saveUtente() {
+		Utente u = new Utente();
+		
+		u.setNome("Gianni");
+		u.setCognome("Rossi");
+		u.setDatanascita(LocalDate.parse("2001-12-12"));
+		
+		UtenteDAO utente = new UtenteDAO();
+		utente.save(u);
+	}
+	
+	public static void savePrestito(Utente utente, ElementoBiblioteca elemento) {
+		Prestito p = new Prestito();
+		p.setUtente_id(utente.getNumerotessera());
+		p.setPrestato(elemento.getTitolo());
+		p.setInizioprestito(LocalDate.parse("2023-01-01"));
+		p.setRestituzionePrevista(LocalDate.parse(""));
+		p.setRestituzioneeffettiva(LocalDate.parse("2023-01-05"));
+		
+		PrestitoDAO prestitoDAO = new PrestitoDAO();
+		prestitoDAO.save(p);
+	}
+	
+	
+
+}

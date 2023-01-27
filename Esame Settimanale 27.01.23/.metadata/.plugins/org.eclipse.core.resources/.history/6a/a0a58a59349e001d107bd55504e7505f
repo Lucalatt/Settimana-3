@@ -1,0 +1,22 @@
+package ap.DAO;
+
+import entities.ElementoBliblioteca;
+import utils.JpaUtil;
+
+public class ElementoDAO extends JpaUtil {
+public void save(ElementoBliblioteca el) {
+		
+		try {
+			
+			t.begin();
+			em.persist(el);
+			t.commit();
+			
+			System.out.println("Elemento inserito correttamente!");
+		}
+		catch(Exception e) {
+			System.out.println("Errore nell'inserimento dell'Elemento");
+		}
+		
+	}
+}

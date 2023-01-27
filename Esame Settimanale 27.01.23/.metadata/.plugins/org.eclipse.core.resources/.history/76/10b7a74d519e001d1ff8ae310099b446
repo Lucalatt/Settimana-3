@@ -1,0 +1,22 @@
+package entities;
+
+import javax.persistence.DiscriminatorColumn;
+import javax.persistence.DiscriminatorValue;
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+import lombok.Getter;
+import lombok.Setter;
+
+@Entity
+@Table(name = "libri")
+@DiscriminatorValue("Libro")
+@Getter
+@Setter
+
+public class Libro extends ElementoBiblioteca {
+	
+	String autore;
+	String genere;
+	
+}

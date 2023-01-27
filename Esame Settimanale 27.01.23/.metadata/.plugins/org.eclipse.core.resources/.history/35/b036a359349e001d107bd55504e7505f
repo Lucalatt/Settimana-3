@@ -1,0 +1,28 @@
+package entities;
+
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.MappedSuperclass;
+import javax.persistence.SequenceGenerator;
+
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+@MappedSuperclass
+@Getter
+@Setter
+@NoArgsConstructor
+
+public abstract class ElementoBliblioteca {
+	
+	@Id
+	@GeneratedValue( strategy = GenerationType.SEQUENCE, generator = "isbn_seq")
+	@SequenceGenerator( name =  "isbn_seq", sequenceName = "isbn_seq")
+	
+	private long codIsbn;
+	private String titolo;
+	private int annoPubblicazione;
+	private int nPagine;
+
+}
